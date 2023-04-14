@@ -1,0 +1,21 @@
+.notes{
+    text-align: center;
+
+}
+
+.but{
+    margin-left: 10px;
+}
+.form{
+    padding:auto;
+}
+.form input{
+    height: 5rem;
+    font-size: x-large;
+    text-justify:newspaper;
+    margin: 30px
+};
+.form label {
+    font-weight: bolder;
+    font-size: larger;
+}
