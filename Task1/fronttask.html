@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/babel" src="react.js"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" >
+        ReactDOM.render(<NavigationBar/>,document.getElementById('navigation'))
+    </script>
+	<title>FrontEnd Task 1</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			border: 1px solid black;
+			padding: 10px;
+            padding-right: 100px;
+			text-align: center;
+		}
+		th {
+			background-color: #ccc;
+		}
+        tr{
+            font-weight: bolder;
+        }
+	</style>
+</head>
+<body>
+	<nav id="navigation"></nav>
+    <div id="data">
+    </div>
+</body>
